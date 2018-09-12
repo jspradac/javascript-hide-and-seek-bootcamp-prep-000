@@ -1,4 +1,5 @@
 function getFirstSelector(selector) {
+<<<<<<< HEAD
 return document.querySelector(selector);  
 }
 function nestedTarget(target, nested) {
@@ -14,3 +15,7 @@ function deepestChild() {
   const deep = document.querySelectorAll("#grand-node div");
   return deep[deep.length - 1];
 }
+=======
+document.querySelector(selector);  
+}
+>>>>>>> 64d2db33886cd414c5213df4b81ff8e54fb064cf
